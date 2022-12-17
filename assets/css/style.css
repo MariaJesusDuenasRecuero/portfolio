@@ -218,7 +218,7 @@ i.nav__icon {
 
 }
 
-@media screen and (max-width:768px){
+@media  (max-width:768px){
 	/*linea de seleccionar*/
     .active__link::before{
         content:'';
@@ -288,7 +288,7 @@ i.nav__icon {
 	}
 }
 
-@media screen and (min-width: 576px){
+@media (min-width: 576px){
 	.about-left-content h2{
 		font-size: 10px;
 		margin: 2.2rem 0 0.6rem 0;
@@ -308,14 +308,14 @@ i.nav__icon {
 	}
 }
 
-@media screen and (max-width:992px){
+@media  (max-width:992px){
 	.container{
 		margin-right: 1rem;
 		margin-left: 0.5rem;
 	}
 }
 
-@media screen and (max-width:768px){
+@media  (max-width:768px){
 	.nav__menu{
 		position: fixed;
 		bottom: 0;
@@ -413,7 +413,7 @@ i.nav__icon {
 
 }
 
-@media screen and (max-width:576px){
+@media  (max-width:576px){
     .nav__list{
         justify-content: center;
 		padding: 2px;
