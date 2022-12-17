@@ -47,6 +47,8 @@ html{
     scroll-behavior: smooth;
 	background-size: cover;
 	background-color: var(--bg-footer);
+	width: auto;
+	
 }
 
 section[id]{
@@ -722,7 +724,7 @@ ul.show{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 95vh;
+    height: auto;
     color:#fff
 }
 .about-left-content > div{
@@ -883,6 +885,7 @@ ul.show{
 	position: relative;
 	max-width: 1200px;
 	margin:100px auto;
+	
 
 }
 
@@ -914,6 +917,15 @@ ul.show{
 .timeline .container:nth-child(3){
 	animation-delay: 4s;
 }
+.timeline .container:nth-child(4){
+	animation-delay: 6s;
+}
+.timeline .container:nth-child(5){
+	animation-delay: 8s;
+}
+.timeline .container:nth-child(6){
+	animation-delay: 10s;
+}
 
 .text-box{
 	padding: 20px 30px;
@@ -921,6 +933,7 @@ ul.show{
 	position: relative;
 	border-radius: 6px;
 	font-size: 16px;
+	
 }
 
 .timeline .left-container{
@@ -1154,7 +1167,7 @@ ul.show{
 	transform: translateX(-50%) translateY(28px);
 	width: 65%;
   }
-@media screen and (max-width:960px){
+@media  (max-width:960px){
 	.timeline{
 		margin:50px auto;
 	}
@@ -1197,7 +1210,7 @@ ul.show{
 	}
 }
 
-@media screen and (max-width:480px){
+@media  (max-width:480px){
 	.timeline{
 		margin:50px auto;
 
@@ -1244,6 +1257,9 @@ ul.show{
 }
 .qualification__button.qualification__active{
     color: var(--main-color);
+}
+.qualification__icon{
+	padding-right: 10px;
 }
 .button--flex{
     display: inline-flex;
