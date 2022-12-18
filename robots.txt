@@ -1,0 +1,10 @@
+# robots.txt generado por atozseotools.com
+User-agent: Googlebot
+Disallow: 
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /assets/
+Disallow: /script.js/
+Disallow: /README.md/
+Sitemap: https://mariajesusduenasrecuero.github.io/portfolio/sitemap-xml
