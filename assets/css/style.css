@@ -24,6 +24,7 @@
 	--overlay-color: #666;
 	--bg-color: #020312;
 	--bg-footer: #101010;
+	--bg-about:#12192c;
 	--h1-font: 6rem;
 	--h1-font-hero: 5.5rem;
 	--h2-font: 4.5rem;
@@ -735,7 +736,7 @@ ul.show {
 }
 
 .about-left-content>div {
-	background: var(--bg-color);
+	background: #12192c;
 	padding: 4rem 4rem 2rem 5rem;
 	text-align: center;
 	align-items: center;
