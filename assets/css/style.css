@@ -143,9 +143,7 @@ a {
 
 }
 
-.section__height {
-	height: 50vh;
-}
+
 
 .header {
 	position: fixed;
@@ -525,7 +523,7 @@ ul.show {
 	height: 20%;
 	appearance: none;
 	background-color: #ff0081;
-	color: #fff;
+	color: var(--white);
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
@@ -733,11 +731,11 @@ ul.show {
 	align-items: center;
 	justify-content: center;
 	height: auto;
-	color: #fff
+	color: var(--white)
 }
 
 .about-left-content>div {
-	background: #12192c;
+	background: var(--bg-color);
 	padding: 4rem 4rem 2rem 5rem;
 	text-align: center;
 	align-items: center;
@@ -745,9 +743,6 @@ ul.show {
 }
 
 .about-left-content {
-	/* box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39); */
-	/* -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
-    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39); */
 	border-radius: 12px;
 	width: 80%;
 }
@@ -799,9 +794,13 @@ ul.show {
 	justify-content: center;
 	padding: 0rem 5rem;
 	text-align: justify;
-	color: #fff;
+	color: var(--white);
 	font-size: var(--p-font);
 
+}
+
+.about-right p a {
+	color: var(--second-color);
 }
 
 .flexbox-about a {
@@ -923,6 +922,14 @@ ul.show {
 	position: relative;
 	border-radius: 6px;
 	font-size: 16px;
+}
+
+.container .left-container .text-box p a {
+	color: var(--second-color);
+}
+
+.container .right-container .text-box p a {
+	color: var(--second-color);
 }
 
 .timeline .left-container {
@@ -1111,6 +1118,7 @@ ul.show {
 	margin-bottom: 40px;
 	padding: 0 0.8rem;
 	position: relative;
+
 }
 
 .container__formacion .grid-cards .card__formacion .card-body__formacion .icon__formacion {
@@ -1149,7 +1157,14 @@ ul.show {
 .container__formacion .grid-cards .card__formacion .card-body__formacion p {
 	font-size: 14px;
 	line-height: 22px;
-	font-weight: 300;
+	font-weight: 500;
+	text-align: justify;
+}
+
+.container__formacion .grid-cards .card__formacion .card-body__formacion p a {
+	color: var(--main-color);
+
+
 }
 
 .container__formacion .grid-cards .card__formacion .card-footer__formacion {
@@ -1960,7 +1975,7 @@ ul.show {
 	}
 
 	.section {
-		padding: 0 0 0 0;
+		padding: 4rem 2rem 0 2rem;
 	}
 }
 
@@ -2039,7 +2054,7 @@ footer {
 
 footer p:nth-child(1) {
 	font-size: 30px;
-	color:var(--white);
+	color: var(--white);
 	margin-bottom: 20px;
 	font-weight: bold;
 }
