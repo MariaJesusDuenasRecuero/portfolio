@@ -99,10 +99,10 @@ h4 {
 ****************** 01.NavBar *******************
 *                                              *
 ***********************************************/
-.container{
+/* .container{
 	max-width: 968px;
 	margin: auto;
-}
+} */
 
 ul {
 	list-style: none;
