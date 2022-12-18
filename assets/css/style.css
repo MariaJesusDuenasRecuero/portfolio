@@ -1,16 +1,3 @@
-/************************************************
-00.Global
-01.Navbar
-02.Inicio
-03.Sobre mí
-03.1.Qualification
-04.Portfolio
-05.Contacto
-06.Footer
-07.top
-************************************************/
-
-
 /***********************************************
 *                                              *
 ********* 00.Caracteisticas generales **********
@@ -24,7 +11,7 @@
 	--overlay-color: #666;
 	--bg-color: #020312;
 	--bg-footer: #101010;
-	--bg-about:#12192c;
+	--bg-about: #12192c;
 	--h1-font: 6rem;
 	--h1-font-hero: 5.5rem;
 	--h2-font: 4.5rem;
@@ -61,9 +48,6 @@ body {
 	overflow-x: hidden;
 }
 
-/* main{
-	background: var(--bg-color);
-} */
 h1 {
 	color: var(--white);
 	margin: 20px 0px 20px;
@@ -115,10 +99,10 @@ h4 {
 ****************** 01.NavBar *******************
 *                                              *
 ***********************************************/
-/* .container{
+.container{
 	max-width: 968px;
 	margin: auto;
-} */
+}
 
 ul {
 	list-style: none;
@@ -140,11 +124,7 @@ a {
 	color: #454343;
 	text-align: center;
 	margin-bottom: 1.5rem;
-
-
 }
-
-
 
 .header {
 	position: fixed;
@@ -163,7 +143,6 @@ a {
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
 	border: 0px solid rgb(255, 255, 255);
 	background-color: rgba(10, 13, 50, 0.305);
-
 }
 
 .nav {
@@ -191,8 +170,6 @@ a {
 
 .nav__icon {
 	font-size: 16px;
-
-
 }
 
 .nav__list,
@@ -205,7 +182,6 @@ a {
 	column-gap: 2rem;
 	font-size: 18px;
 }
-
 
 .nav__link {
 	flex-direction: column;
@@ -227,7 +203,6 @@ i.nav__icon {
 	position: relative;
 	color: var(--main-color);
 	transition: 0.3s;
-
 }
 
 .active__link::before {
@@ -242,7 +217,6 @@ i.nav__icon {
 }
 
 @media (max-width:768px) {
-
 	/*linea de seleccionar*/
 	.active__link::before {
 		content: '';
@@ -340,7 +314,6 @@ i.nav__icon {
 		padding: 0 2px 0 2px;
 		display: grid;
 		align-content: center;
-		/* border-radius:1.25rem  1.25rem 0 0; */
 		transition: .4s;
 		box-shadow: 0 -1px 12px rgba(161, 159, 159, 0.5);
 		background-color: rgba(10, 13, 50, 0.7);
@@ -390,7 +363,6 @@ i.nav__icon {
 
 	.buttonTop i {
 		display: none;
-
 	}
 
 
@@ -401,7 +373,6 @@ i.nav__icon {
 		line-height: 1.2;
 		padding-bottom: 1rem;
 		border-bottom: 2px solid var(--main-color);
-
 	}
 
 	.about-left-content h3 {
@@ -410,7 +381,6 @@ i.nav__icon {
 		letter-spacing: 3px;
 		margin-top: 1.2rem;
 		text-align: justify;
-
 	}
 
 
@@ -419,7 +389,6 @@ i.nav__icon {
 @media (max-width:576px) {
 	.nav__list {
 		justify-content: center;
-		/* padding: 2px; */
 		font-size: 4px;
 	}
 
@@ -455,7 +424,6 @@ span {
 	color: var(--white);
 	text-transform: capitalize;
 }
-
 
 
 /***********************************************
@@ -1721,7 +1689,6 @@ ul.show {
 .conocimientos .skill {
 	display: grid;
 	grid-gap: 16px;
-	/* padding: 14px; */
 	max-width: 1000px;
 	color: var(--white);
 	display: grid;
@@ -1730,8 +1697,6 @@ ul.show {
 	gap: 2rem;
 	margin: 10rem 40px 0 40px;
 }
-
-
 
 .skill .set {
 	padding: 24px;
@@ -1801,29 +1766,23 @@ ul.show {
 @media screen and (max-width: 1326px) {
 	.skill {
 		grid-template-columns: repeat(3, 3fr);
-
-
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.skill {
 		grid-template-columns: repeat(3, 1fr);
-
 	}
 
 	.portfolio__content {
 		grid-template-columns: 1fr;
 	}
-
-
 }
 
 @media screen and (max-width: 480px) {
 
 	.skill {
 		grid-template-columns: 1fr;
-
 	}
 
 	.set .list {
@@ -1952,9 +1911,6 @@ ul.show {
 	background-color: #bc4063;
 }
 
-
-
-
 @media (min-width:960px) {
 	:root {
 		--h1-font: 4.2rem;
@@ -2026,7 +1982,6 @@ ul.show {
 	position: fixed;
 	bottom: 1.1rem;
 	right: 1.1rem;
-
 	border-radius: 60%;
 	background-color: var(--main-color);
 }
@@ -2038,7 +1993,6 @@ ul.show {
 	border-radius: 0.5rem;
 
 }
-
 
 footer {
 	position: relative;
@@ -2084,7 +2038,6 @@ footer p:nth-child(2) {
 	color: var(--white);
 	text-decoration: none;
 	font-size: 20px;
-
 }
 
 .social a:hover {
@@ -2097,5 +2050,4 @@ footer p:nth-child(2) {
 	color: var(--main-color);
 	bottom: 10px;
 	font-size: 14px;
-
 }
