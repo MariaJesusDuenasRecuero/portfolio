@@ -117,6 +117,7 @@ a {
 .section {
 	padding: 0rem 0 2rem;
 	width: auto;
+	height: auto;
 }
 
 .section__title {
@@ -308,7 +309,7 @@ i.nav__icon {
 		position: fixed;
 		bottom: 0;
 		left: 0;
-		width: 100%;
+		width: auto;
 		height: 4rem;
 		padding: 0;
 		display: grid;
@@ -1400,6 +1401,7 @@ ul.show {
 	transition: 0.3s ease-in-out;
 }
 
+
 .soft__skills__container .container__card .card:hover .content {
 	visibility: visible;
 	opacity: 1;
@@ -1948,11 +1950,15 @@ ul.show {
 	align-items: center;
 	background-image: url(../img/puertollano.jpg);
 	background-size: cover;
-	height: auto;
+}
+
+.contacto__container{
+	height: 100vh;
 }
 
 .flexbox-contacto {
 	align-items: center;
+	
 }
 
 .flexbox-contacto a {
