@@ -94,6 +94,40 @@ h4 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***********************************************
 *                                              *
 ****************** 01.NavBar *******************
@@ -1038,7 +1072,7 @@ ul.show {
 	position: relative;
 	flex: 1;
 	background: var(--white);
-	padding: 1rem 1rem 1.5rem;
+	padding: 1rem 2rem 1.5rem 2rem;
 	box-shadow: 0 10px 25px var(--bg-footer);
 	border-radius: 1rem;
 	min-height: 170px;
@@ -1885,12 +1919,12 @@ ul.show {
 }
 
 .Java {
-	background-color: #aa7004;
+	background-color: #D97F30;
 }
 
 /* Green */
 .csharp {
-	background-color: #6a0fd1ee;
+	background-color: #9857F2;
 }
 
 /* Blue */
@@ -1905,13 +1939,28 @@ ul.show {
 
 /* Red */
 .Typescript {
-	background-color: #c1d40eb7;
+	background-color: #0511F2;
+}
+.javascript {
+	background-color: #F2CB05;
 }
 
 /* Gray */
 .figma {
-	background-color: #bc4063;
+	background-color: #F26B5E;
 }
+.html {
+	background-color: #F24822;
+}
+
+.css {
+	background-color: #000080;
+}
+
+.prestashop {
+	background-color: #DF0067;
+}
+
 
 @media (min-width:960px) {
 	:root {
